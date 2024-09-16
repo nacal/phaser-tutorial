@@ -11,7 +11,7 @@ class TestScene extends Phaser.Scene {
   preload() {
     this.load.image('sky', 'https://labs.phaser.io/assets/skies/space3.png')
     this.load.image('red', 'https://labs.phaser.io/assets/particles/red.png')
-    this.load.image('ojisan', 'public/ojisan.png')
+    this.load.image('ojisan', 'ojisan.png')
   }
 
   create() {
